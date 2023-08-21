@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+}
+
+#cxTudo{
+    background-color: #AEA7F4;
+    border-radius: 20px;
+    margin-top: 3vh;
+    width: 90vw;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+#linhas{
+    display: block;
+}
+
+#voltar button{
+    padding: 2% 5%;
+    border-radius: 15px;
+    background-color: rgb(240, 74, 74);
+    color: #fff;
+    margin: 1vh 0 0 1vh;
+    border: 2px solid #fff;
+}
+
+#voltar button:hover{
+    border: 2px dashed rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 14, 14);
+}
+
+#add button{
+    position: relative;
+    padding: 10% 20%;
+    border-radius: 15px;
+    background-color: #4d1b8d;
+    color: #fff;
+    border: 2px solid #fff;
+    padding:10px 38vw;
+}
+
+#add button:hover{
+    border: 2px dashed rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 63, 247);
+}
+
+#makeRoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#logo img{
+    width: 35vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul .list-group-item{
+    align-items: center;
+    background-color: #AEA7F4 !important;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: rgb(77, 27, 141);
+}

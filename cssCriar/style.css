@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/imgs/fundochat.webp);
+}
+
+#cxTudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #AEA7F4;
+    border-radius: 20px;
+    margin-top: 20vh;
+    width: 85vw;
+    align-items: center;
+    margin-left: 7.5vw;
+    padding-bottom: 2%;
+}
+
+#linhas{
+    display: block;
+}
+
+#logo img{
+    width: 35vw;
+    margin-top: -15px;
+}
+
+#voltar button{
+    padding: 2% 5%;
+    border-radius: 15px;
+    background-color: #f04a4a;
+    color: #fff;
+    margin: 1vh 0 0 1vh;
+    border: 2px solid #fff;
+}
+
+#voltar button:hover{
+    border: 2px dashed rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 14, 14);
+}
+
+#check{
+}
+
+#nomeandoSala{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+#privado{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 2.5vw;
+}
+
+#ipt_cod,#iptNomeSala{
+    border-radius: 10px;
+}

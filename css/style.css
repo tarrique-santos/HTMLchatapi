@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/imgs/fundochat.webp);
+    /* overflow-y: hidden; */
+}
+
+#tit div img{
+    max-height: 50vw;
+    min-height: 20vw;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    padding-bottom: 10vw;
+    
+}
+
+img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#entrada {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    font-size: 3ch;
+}
+
+#ipt_nick {
+    border-radius: 25px;
+    background-color: #ffffff;
+    align-content: center;
+    align-items: center;
+    max-width: 30vw;
+}
+
+#acessar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 35px;
+    padding: 5px 150px;
+    background-color: #AEA7F4;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    max-width: 35vw;
+    margin-top: 3vh;
+    margin-left: 17vh;
+    padding: 1vh 6vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+#acessar:hover {
+    background-color: #8881d3;
+    border: 2px solid #fff;
+    color: #fff
+}
+
+#cxTudo {
+    background: #f7f7c0;
+    background: linear-gradient(90deg, rgba(247, 247, 192, 1) 0%, rgba(251, 215, 110, 1) 100%);
+    border-radius: 20px;
+    margin-top: 15vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 17.5vw;
+    padding-bottom: 2%;
+}
+
+#imgLogo{
+    width: 44vw;
+}

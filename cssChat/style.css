@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(/imgs/fundochat.webp);
+}
+
+#cxTudo{
+    background-color: #AEA7F4;
+    border-radius: 20px;
+    margin-top: 5vh;
+    width: 85vw;
+    align-items: center;
+    margin-left: 7.5vw;
+    margin-bottom: 5%;
+}
+
+#nomeSala h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+}
+
+#voltar button{
+    padding: 2% 5%;
+    border-radius: 15px;
+    background-color: #f04a4a;
+    color: #fff;
+    margin: 1vh 0 0 1vh;
+    border: 2px solid #fff;
+}
+
+#voltar button:hover{
+    border: 2px dashed rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 14, 14);
+}
+
+#chat{
+    display: flex;
+    height: 57vh;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px ;
+}
+
+#iptTexto {
+    width: 85vw;
+    margin-right: 20vw;
+    border-radius: 5px;
+    justify-content: end;
+    display: flex;
+}
+
+#baseEnviar{
+    display: flex;
+}
+
+#send{
+    padding-right: 5vw;
+}
+
+button{
+    border: none;
+    background: none;
+}
